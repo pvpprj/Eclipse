@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="117" started-at="2021-01-21T14:57:00 IST" finished-at="2021-01-21T14:57:00 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="117" started-at="2021-01-21T14:57:00 IST" finished-at="2021-01-21T14:57:00 IST">
+      <class name="Automation.MobileMaven.AppiumTest">
+        <test-method status="PASS" signature="AndroidApp()[pri:0, instance:Automation.MobileMaven.AppiumTest@3a883ce7]" name="AndroidApp" duration-ms="12" started-at="2021-01-21T14:57:00 IST" finished-at="2021-01-21T14:57:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AndroidApp -->
+        <test-method status="PASS" signature="IosApp()[pri:0, instance:Automation.MobileMaven.AppiumTest@3a883ce7]" name="IosApp" duration-ms="0" started-at="2021-01-21T14:57:00 IST" finished-at="2021-01-21T14:57:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IosApp -->
+      </class> <!-- Automation.MobileMaven.AppiumTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

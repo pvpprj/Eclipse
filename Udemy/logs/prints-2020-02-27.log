@@ -1,0 +1,8 @@
+00:49:33.360 [main] ERROR Log4j_Project_Two.Demo1 - Object is Not present
+00:49:33.370 [main] FATAL Log4j_Project_Two.Demo1 - This is fatal
+00:51:02.711 [main] DEBUG Log4j_Project.Demo - I am Debugg
+00:51:02.720 [main] INFO  Log4j_Project.Demo - Object is Present
+00:51:02.720 [main] ERROR Log4j_Project.Demo - Object is Not present
+00:51:02.720 [main] FATAL Log4j_Project.Demo - This is fatal
+00:51:07.877 [main] DEBUG Log4j_Project.Demo - I am Debugg
+00:51:07.880 [main] INFO  Log4j_Project.Demo - Object is Present

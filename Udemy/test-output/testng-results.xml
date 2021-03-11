@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="98" started-at="2020-03-05T22:23:00 IST" finished-at="2020-03-05T22:23:00 IST">
+    <groups>
+      <group name="smoke">
+        <method signature="day1.WebLoginPersonalLoan()[pri:0, instance:TestNG.day1@3e9b1010]" name="WebLoginPersonalLoan" class="TestNG.day1"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Default test" duration-ms="98" started-at="2020-03-05T22:23:00 IST" finished-at="2020-03-05T22:23:00 IST">
+      <class name="TestNG.day1">
+        <test-method status="PASS" signature="Before()[pri:0, instance:TestNG.day1@3e9b1010]" name="Before" is-config="true" duration-ms="18" started-at="2020-03-05T22:23:00 IST" finished-at="2020-03-05T22:23:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before -->
+        <test-method status="PASS" signature="ChromeLoginPersonalLoan()[pri:0, instance:TestNG.day1@3e9b1010]" name="ChromeLoginPersonalLoan" duration-ms="9" started-at="2020-03-05T22:23:00 IST" finished-at="2020-03-05T22:23:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChromeLoginPersonalLoan -->
+        <test-method status="PASS" signature="MobileLoginPersonalLoan()[pri:0, instance:TestNG.day1@3e9b1010]" name="MobileLoginPersonalLoan" duration-ms="2" started-at="2020-03-05T22:23:00 IST" finished-at="2020-03-05T22:23:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginPersonalLoan -->
+        <test-method status="PASS" signature="WebLoginPersonalLoan()[pri:0, instance:TestNG.day1@3e9b1010]" name="WebLoginPersonalLoan" duration-ms="3" started-at="2020-03-05T22:23:00 IST" finished-at="2020-03-05T22:23:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginPersonalLoan -->
+        <test-method status="PASS" signature="zChromeLoginPersonalLoan()[pri:0, instance:TestNG.day1@3e9b1010]" name="zChromeLoginPersonalLoan" duration-ms="2" started-at="2020-03-05T22:23:00 IST" finished-at="2020-03-05T22:23:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- zChromeLoginPersonalLoan -->
+      </class> <!-- TestNG.day1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

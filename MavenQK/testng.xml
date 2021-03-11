@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="NelitoLos">
+  <test thread-count="5" name="BM to BDO">
+    <classes>
+      <class name="Nelito.AllUserActivity">
+      <methods>
+      <exclude name ="NelitoBM"/>
+      <exclude name ="NelitoCCO"/>
+       <exclude name ="NelitoCRO"/>
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="92.612641">
+<testcase classname="Search and Place Order for Vegitables" name="Search for Items and Validates the Result" time="12.879689">
+<system-out><![CDATA[Given User is on Greencard Landing Page.....................................passed
+When User serching for "Cucumber"...........................................passed
+Then "Cucumber" result are displayed........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search and Place Order for Vegitables" name="Search for Items and then move out to check out page" time="18.650468">
+<system-out><![CDATA[Given User is on Greencard Landing Page.....................................passed
+When User serching for "Brinjal"............................................passed
+And Added item to cart......................................................passed
+And User proceeded to checkout page for purchase............................passed
+Then verify selected "Brinjal" item are displayed in Check out page.........passed
+]]></system-out>
+</testcase>
+<testcase classname="Search and Place Order for Vegitables" name="Search for Items and then move out to check out page 2" time="20.142474">
+<system-out><![CDATA[Given User is on Greencard Landing Page.....................................passed
+When User serching for Beetroot Vegitables..................................passed
+And Added item to cart......................................................passed
+And User proceeded to checkout page for purchase............................passed
+Then verify selected Beetroot items are displayed in Check out page.........passed
+]]></system-out>
+</testcase>
+<testcase classname="Search and Place Order for Vegitables" name="Search for Items and then move out to check out page 3" time="20.761253">
+<system-out><![CDATA[Given User is on Greencard Landing Page.....................................passed
+When User serching for Cauliflower Vegitables...............................passed
+And Added item to cart......................................................passed
+And User proceeded to checkout page for purchase............................passed
+Then verify selected Cauliflower items are displayed in Check out page......passed
+]]></system-out>
+</testcase>
+<testcase classname="Search and Place Order for Vegitables" name="Search for Items and then move out to check out page 4" time="20.178757">
+<system-out><![CDATA[Given User is on Greencard Landing Page.....................................passed
+When User serching for Carrot Vegitables....................................passed
+And Added item to cart......................................................passed
+And User proceeded to checkout page for purchase............................passed
+Then verify selected Carrot items are displayed in Check out page...........passed
+]]></system-out>
+</testcase>
+</testsuite>

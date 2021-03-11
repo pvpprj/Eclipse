@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="15" passed="14">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="210" started-at="2020-08-18T23:28:40 IST" finished-at="2020-08-18T23:28:40 IST">
+    <groups>
+      <group name="smoke">
+        <method signature="Home.MobileLoginHomeLoan()[pri:0, instance:Test.Home@50d0686]" name="MobileLoginHomeLoan" class="Test.Home"/>
+        <method signature="Personal.MobileLoginPersonalLoan()[pri:0, instance:Test.Personal@4e718207]" name="MobileLoginPersonalLoan" class="Test.Personal"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Test" duration-ms="131" started-at="2020-08-18T23:28:40 IST" finished-at="2020-08-18T23:28:40 IST">
+      <class name="Test.PASS">
+        <test-method status="PASS" signature="pass1(java.lang.String)[pri:0, instance:Test.PASS@7a3d45bd]" name="pass1" duration-ms="11" started-at="2020-08-18T23:28:40 IST" finished-at="2020-08-18T23:28:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[google.com____SuitelevelParameterize]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pass1 -->
+        <test-method status="PASS" signature="pass3()[pri:0, instance:Test.PASS@7a3d45bd]" name="pass3" duration-ms="8" started-at="2020-08-18T23:28:40 IST" finished-at="2020-08-18T23:28:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pass3 -->
+      </class> <!-- Test.PASS -->
+      <class name="Test.DataProvider_Concept">
+        <test-method status="PASS" signature="pass2(java.lang.String, java.lang.String)[pri:0, instance:Test.DataProvider_Concept@1e7c7811]" name="pass2" duration-ms="0" started-at="2020-08-18T23:28:40 IST" data-provider="GetData" finished-at="2020-08-18T23:28:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pass2 -->
+        <test-method status="PASS" signature="pass2(java.lang.String, java.lang.String)[pri:0, instance:Test.DataProvider_Concept@1e7c7811]" name="pass2" duration-ms="0" started-at="2020-08-18T23:28:40 IST" data-provider="GetData" finished-at="2020-08-18T23:28:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pass2 -->
+        <test-method status="PASS" signature="pass2(java.lang.String, java.lang.String)[pri:0, instance:Test.DataProvider_Concept@1e7c7811]" name="pass2" duration-ms="4" started-at="2020-08-18T23:28:40 IST" data-provider="GetData" finished-at="2020-08-18T23:28:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pass2 -->
+        <test-method status="PASS" signature="pass3()[pri:0, instance:Test.DataProvider_Concept@1e7c7811]" name="pass3" duration-ms="3" started-at="2020-08-18T23:28:40 IST" finished-at="2020-08-18T23:28:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pass3 -->
+      </class> <!-- Test.DataProvider_Concept -->
+      <class name="Test.Home">
+        <test-method status="PASS" signature="ApiLoginHomeLoan()[pri:0, instance:Test.Home@50d0686]" name="ApiLoginHomeLoan" duration-ms="2" started-at="2020-08-18T23:28:40 IST" finished-at="2020-08-18T23:28:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApiLoginHomeLoan -->
+        <test-method status="PASS" signature="MobileLoginHomeLoan()[pri:0, instance:Test.Home@50d0686]" name="MobileLoginHomeLoan" duration-ms="3" started-at="2020-08-18T23:28:40 IST" finished-at="2020-08-18T23:28:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginHomeLoan -->
+        <test-method status="PASS" signature="WebLoginHomeLoan()[pri:0, instance:Test.Home@50d0686]" name="WebLoginHomeLoan" duration-ms="2" started-at="2020-08-18T23:28:40 IST" finished-at="2020-08-18T23:28:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginHomeLoan -->
+      </class> <!-- Test.Home -->
+    </test> <!-- Test -->
+    <test name="Personal Loan" duration-ms="30" started-at="2020-08-18T23:28:40 IST" finished-at="2020-08-18T23:28:40 IST">
+      <class name="Test.Personal">
+        <test-method status="PASS" signature="ApiZLoginPersonalLoan()[pri:0, instance:Test.Personal@4e718207]" name="ApiZLoginPersonalLoan" duration-ms="2" started-at="2020-08-18T23:28:40 IST" finished-at="2020-08-18T23:28:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApiZLoginPersonalLoan -->
+        <test-method status="PASS" signature="MobileLoginPersonalLoan()[pri:0, instance:Test.Personal@4e718207]" name="MobileLoginPersonalLoan" duration-ms="2" started-at="2020-08-18T23:28:40 IST" finished-at="2020-08-18T23:28:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginPersonalLoan -->
+        <test-method status="PASS" signature="MobileSignInPersonalLoan()[pri:0, instance:Test.Personal@4e718207]" name="MobileSignInPersonalLoan" duration-ms="4" started-at="2020-08-18T23:28:40 IST" finished-at="2020-08-18T23:28:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileSignInPersonalLoan -->
+        <test-method status="PASS" signature="WebLoginPersonalLoan(java.lang.String, java.lang.String)[pri:0, instance:Test.Personal@4e718207]" name="WebLoginPersonalLoan" duration-ms="1" started-at="2020-08-18T23:28:40 IST" finished-at="2020-08-18T23:28:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[personaLoan.com-------TestlevelParameterize]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[KEYpersonlLoan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginPersonalLoan -->
+        <test-method status="PASS" signature="ApiLoginPersonalLoan()[pri:0, instance:Test.Personal@4e718207]" name="ApiLoginPersonalLoan" duration-ms="3" started-at="2020-08-18T23:28:40 IST" depends-on-methods="Test.Personal.ApiZLoginPersonalLoan" finished-at="2020-08-18T23:28:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApiLoginPersonalLoan -->
+      </class> <!-- Test.Personal -->
+      <class name="Test.Home">
+        <test-method status="PASS" signature="BeforeSuite()[pri:0, instance:Test.Home@50d0686]" name="BeforeSuite" is-config="true" duration-ms="20" started-at="2020-08-18T23:28:40 IST" finished-at="2020-08-18T23:28:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSuite -->
+        <test-method status="PASS" signature="AfterSuite()[pri:0, instance:Test.Home@50d0686]" name="AfterSuite" is-config="true" duration-ms="0" started-at="2020-08-18T23:28:40 IST" finished-at="2020-08-18T23:28:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterSuite -->
+      </class> <!-- Test.Home -->
+    </test> <!-- Personal Loan -->
+  </suite> <!-- Suite -->
+</testng-results>

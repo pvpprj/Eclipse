@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="111" started-at="2021-01-21T13:26:48 IST" finished-at="2021-01-21T13:26:48 IST">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="111" started-at="2021-01-21T13:26:48 IST" finished-at="2021-01-21T13:26:48 IST">
+      <class name="Automation.AppiumMaven.AppiumTest">
+        <test-method status="PASS" signature="AndroidApp()[pri:0, instance:Automation.AppiumMaven.AppiumTest@335eadca]" name="AndroidApp" duration-ms="11" started-at="2021-01-21T13:26:48 IST" finished-at="2021-01-21T13:26:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AndroidApp -->
+        <test-method status="PASS" signature="IosApp()[pri:0, instance:Automation.AppiumMaven.AppiumTest@335eadca]" name="IosApp" duration-ms="1" started-at="2021-01-21T13:26:48 IST" finished-at="2021-01-21T13:26:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IosApp -->
+      </class> <!-- Automation.AppiumMaven.AppiumTest -->
+      <class name="Automation.AppiumMaven.RestApiTest">
+        <test-method status="PASS" signature="DeleteTwitter()[pri:0, instance:Automation.AppiumMaven.RestApiTest@eec5a4a]" name="DeleteTwitter" duration-ms="2" started-at="2021-01-21T13:26:48 IST" finished-at="2021-01-21T13:26:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteTwitter -->
+        <test-method status="PASS" signature="PostJira()[pri:0, instance:Automation.AppiumMaven.RestApiTest@eec5a4a]" name="PostJira" duration-ms="1" started-at="2021-01-21T13:26:48 IST" finished-at="2021-01-21T13:26:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostJira -->
+      </class> <!-- Automation.AppiumMaven.RestApiTest -->
+      <class name="Automation.AppiumMaven.RahulTest">
+        <test-method status="PASS" signature="BrowserAutomation()[pri:0, instance:Automation.AppiumMaven.RahulTest@210366b4]" name="BrowserAutomation" duration-ms="2" started-at="2021-01-21T13:26:48 IST" finished-at="2021-01-21T13:26:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserAutomation -->
+        <test-method status="PASS" signature="ElementUI()[pri:0, instance:Automation.AppiumMaven.RahulTest@210366b4]" name="ElementUI" duration-ms="1" started-at="2021-01-21T13:26:48 IST" finished-at="2021-01-21T13:26:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ElementUI -->
+        <test-method status="PASS" signature="Exam()[pri:0, instance:Automation.AppiumMaven.RahulTest@210366b4]" name="Exam" duration-ms="0" started-at="2021-01-21T13:26:48 IST" finished-at="2021-01-21T13:26:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Exam -->
+      </class> <!-- Automation.AppiumMaven.RahulTest -->
+      <class name="Automation.AppiumMaven.SeliniumTest">
+        <test-method status="PASS" signature="BrowserAutomation()[pri:0, instance:Automation.AppiumMaven.SeliniumTest@2b2948e2]" name="BrowserAutomation" duration-ms="0" started-at="2021-01-21T13:26:48 IST" finished-at="2021-01-21T13:26:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserAutomation -->
+        <test-method status="PASS" signature="ElementUI()[pri:0, instance:Automation.AppiumMaven.SeliniumTest@2b2948e2]" name="ElementUI" duration-ms="1" started-at="2021-01-21T13:26:48 IST" finished-at="2021-01-21T13:26:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ElementUI -->
+      </class> <!-- Automation.AppiumMaven.SeliniumTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
